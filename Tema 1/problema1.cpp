@@ -26,3 +26,5 @@ Pseudo
 citeste x,y
 daca y mod x = 0 atunci scrie y/x
                  altfel scrie (y/x) + 1
+
+*/
