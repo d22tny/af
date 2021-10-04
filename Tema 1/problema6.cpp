@@ -1,3 +1,6 @@
+/*6. Se dau 5 numere distincte. Să se determine suma celor mai mari 3 dintre ele.
+*/
+
 #include <iostream>
 
 using namespace std;

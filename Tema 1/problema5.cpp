@@ -1,4 +1,4 @@
-/*4. Se citesc trei numere a, b, c. Să se determine diferenţa dintre cel mai mare şi cel
+/*5. Se citesc trei numere a, b, c. Să se determine diferenţa dintre cel mai mare şi cel
 mai mic
 */
 
