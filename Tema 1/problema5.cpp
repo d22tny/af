@@ -31,3 +31,16 @@ int main()
     }
     cout <<"Diferenta intre cel mai mare numar [" << max << "] si cel mai mic numar [" << min << "] este " << max - min << "."; 
 }
+
+/* 
+
+Pseudo
+
+citeste a,b,c
+min <- a
+max <- a
+daca b < min atunci min <- b
+daca c < min atunci min <- c
+daca b > max atunci max <- b
+daca c > max atunci max <- c
+scrie max - min

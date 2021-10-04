@@ -18,3 +18,14 @@ int main()
         cout << "Numarul mai mare decat " << n << " care are ultimele doua cifre egale cu zero este" << 100 + n - r;
     }
 }
+
+/*
+
+Pseudo
+
+citeste n
+rest <- n mod 100
+daca rest = 0 atunci scrie n
+              altfel scrie 100 + n - r
+
+*/

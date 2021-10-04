@@ -26,3 +26,14 @@ int main()
     }
     
 }
+
+/* 
+
+Pseudo
+
+citeste a,b,x
+
+daca x>=a AND x<=b atunci scrie "apartine"
+                   altfel scrie "nu apartine"
+
+*/

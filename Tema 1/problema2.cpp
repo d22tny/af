@@ -18,3 +18,14 @@ int main()
         cout <<"Nota " << n << " nu este o nota corecta!";
     }
 }
+
+/*
+
+Pseudo
+
+citeste n
+
+daca n>=5 AND n<=10 atunci scrie "promovat"
+daca n < 5 AND n>=1 atunci scrie "corigent"
+
+*/

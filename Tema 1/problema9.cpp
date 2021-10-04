@@ -21,3 +21,13 @@ int main()
         cout <<"Cele doua numere intregi nu au acelasi semn";
     }
 }
+
+/* 
+
+Pseudo
+
+citeste a,b
+daca a*b > 0 atunci scrie "acelasi semn"
+daca a*b < 0 atunci scrie "semn diferit"
+
+*/
