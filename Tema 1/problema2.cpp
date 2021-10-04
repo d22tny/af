@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    // asta este foarte simplu. daca nota este mai mica decat 5 este corigent, daca este mai mare sau egala cu 5 este promovat.
     int n;
     cout<<"Introduceti nota elevului\n";
     cin>>n;
@@ -25,7 +26,11 @@ Pseudo
 
 citeste n
 
-daca n>=5 AND n<=10 atunci scrie "promovat"
-daca n < 5 AND n>=1 atunci scrie "corigent"
+┌ daca n>=5 AND n<=10 atunci 
+│    scrie "promovat"
+└■
+┌ daca n < 5 AND n>=1 atunci 
+│    scrie "corigent"
+└■
 
 */
