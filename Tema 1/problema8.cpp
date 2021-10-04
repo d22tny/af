@@ -34,10 +34,10 @@ Pseudo
 
 citeste n
 daca n >= 100 AND n <= 999 atunci
-    pc <- n mod 10
-    n <- n div 10
-    dc <- n mod 10
-    n <- n div 10
+    pc ← n mod 10
+    n ← n div 10
+    dc ← n mod 10
+    n ← n div 10
     daca pc = dc AND dc = n atunci
                             scrie "toate cifrele egale"
                             altfel

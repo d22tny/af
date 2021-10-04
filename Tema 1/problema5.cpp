@@ -38,14 +38,14 @@ int main()
 Pseudo
 
 citeste a,b,c
-min <- a
-max <- a
-┌daca b < min atunci min <- b
+min ← a
+max ← a
+┌daca b < min atunci min ← b
 └■
-┌daca c < min atunci min <- c
+┌daca c < min atunci min ← c
 └■
-┌daca b > max atunci max <- b
+┌daca b > max atunci max ← b
 └■
-┌daca c > max atunci max <- c
+┌daca c > max atunci max ← c
 └■
 scrie max - min

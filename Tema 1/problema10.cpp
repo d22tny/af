@@ -24,7 +24,7 @@ int main()
 Pseudo
 
 citeste n
-rest <- n mod 100
+rest ← n mod 100
 daca rest = 0 atunci scrie n
               altfel scrie 100 + n - r
 
