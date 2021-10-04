@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    // stabilim min,max = primul numar, daca gasit un numar mai mare/mai mic il trecem ca si minim/maxim
     int a,b,c,min,max;
     cout<<"Introduceti primul numar\n";
     cin>>a;
@@ -39,8 +40,12 @@ Pseudo
 citeste a,b,c
 min <- a
 max <- a
-daca b < min atunci min <- b
-daca c < min atunci min <- c
-daca b > max atunci max <- b
-daca c > max atunci max <- c
+┌daca b < min atunci min <- b
+└■
+┌daca c < min atunci min <- c
+└■
+┌daca b > max atunci max <- b
+└■
+┌daca c > max atunci max <- c
+└■
 scrie max - min
