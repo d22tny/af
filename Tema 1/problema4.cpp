@@ -28,10 +28,11 @@ int main()
 Pseudo
 
 citeste a,b
-daca a<=b atunci scrie "al doiela este mai mare"
-                 scrie b-a
-          altfel
-                scrie "primul este mai mare"
-                scrie a - b
 
+┌daca a<=b atunci scrie "al doiela este mai mare"
+│    scrie b-a
+│altfel
+│    scrie "primul este mai mare"
+│    scrie a - b
+└■
 */
