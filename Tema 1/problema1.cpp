@@ -4,7 +4,7 @@ de y litri.
 #include <iostream>
 
 using namespace std;
-
+// practic cate sticle de x litri incap intr-un vas de y litri este y/x;
 int main()
 {
     int x,y=0;
@@ -15,6 +15,7 @@ int main()
     if (y%x==0) {
         cout<<y/x;
     } else {
+        // in cazul in care spre exemplu sticla are 2L iar vasul are 7L, o sa fie nevoie de 4 sticle, chiar daca ramane 1L in plus.
         cout<<(y/x)+1;
     }
 }
@@ -24,7 +25,9 @@ int main()
 Pseudo
 
 citeste x,y
-daca y mod x = 0 atunci scrie y/x
-                 altfel scrie (y/x) + 1
+┌ daca y mod x = 0 atunci 
+│     scrie y/x
+│ altfel scrie (y/x) + 1
+└■
 
 */
