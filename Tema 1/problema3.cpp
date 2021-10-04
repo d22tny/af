@@ -8,6 +8,8 @@ using namespace std;
 
 int main()
 {
+    // si asta tot simplu, daca numarul dat este mai mare decat minimul intervalului si mai mic decat maximul intervalului, atunci este cuprins
+    // in interval :) 
     int a,b,x;
     cout<<"Introduceti minimul intervalului\n";
     cin>>a;
@@ -33,7 +35,10 @@ Pseudo
 
 citeste a,b,x
 
-daca x>=a AND x<=b atunci scrie "apartine"
-                   altfel scrie "nu apartine"
+┌daca x>=a AND x<=b atunci 
+│    scrie "apartine"
+│altfel 
+│    scrie "nu apartine"
+└■
 
 */
